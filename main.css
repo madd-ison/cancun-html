@@ -54,15 +54,15 @@ h5 {
 .fxs {
     font-size: x-small;
 }
-
-hr {
-    border-top: 1px solid #89dc00;
+.text-danger {
+    font-size: 1vmax !important;
 }
 
 /* remove bootstrap detail */
 .card {
     border: none !important;
 }
+
 .img-thumbnail {
     border: none !important;
     height: 30px;
@@ -79,6 +79,10 @@ hr {
 
 .action {
     cursor: pointer;
+}
+
+hr {
+    border-top: 1px solid #89dc00;
 }
 
 /*------------------------------------
@@ -130,14 +134,14 @@ hr {
 
 /*------------------------------------*/
 
-/* .navbar-link img {
-    height: 6vh !important;
-} */
-
 
 /* to be removed - used for viewing col size/placement */
 .view {
     border: 2px solid black;
+}
+
+.navbar {
+    background-color: #fff;
 }
 
 /* most views - primarily header divs */
