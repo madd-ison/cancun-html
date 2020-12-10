@@ -127,7 +127,12 @@ hr {
 .text-primary {
     color: #00abd1 !important;
 }
+
 /*------------------------------------*/
+
+/* .navbar-link img {
+    height: 6vh !important;
+} */
 
 
 /* to be removed - used for viewing col size/placement */
