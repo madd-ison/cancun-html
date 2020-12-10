@@ -19,6 +19,7 @@ body, .container-fluid {
 .btn {
     border-radius: 20px !important;
     background-color: #89dc00 !important;
+    color: #fff;
 }
 
 /* TO DO - better way to make responsive on larger screens ? */
