@@ -3,7 +3,7 @@
 }
 
 a {
-    color: #E85232 !important;
+    color: #00abd1 !important;
     text-decoration-line: none !important;
 }
 
@@ -37,6 +37,10 @@ h5 {
 }
 .h6 {
     font-size: calc(.8rem + 1vw)
+}
+
+hr {
+    border-top: 1px solid #89dc00;
 }
 
 /* remove bootstrap detail */
@@ -127,6 +131,10 @@ h5 {
     box-shadow: 3px 3px 3px #3d3c3c;
     margin: 10px auto;
     padding: 10px;
+}
+
+.lh-tight {
+    line-height: .8em;
 }
 
 .rotateimg {
