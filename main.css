@@ -18,8 +18,20 @@ body, .container-fluid {
 
 .btn {
     border-radius: 20px !important;
-    background-color: #89dc00 !important;
+}
+.btn-green {
     color: #fff;
+    background-color: #89dc00;
+    box-shadow: 1px 1px 3px #8b8a8a;
+}
+.btn-white {
+    color: #89dc00;
+    border-color: #89dc00;
+    background-color: transparent;
+    box-shadow: 1px 1px 3px #bdbbbb;
+}
+.btn-light {
+    border-color: #3d3c3c;
 }
 
 /* TO DO - better way to make responsive on larger screens ? */
@@ -81,15 +93,9 @@ hr {
 }
 
 .btn-primary {
-    color: #fff;
-    background-color: #00abd1;
-    border-color: #00abd1;
-}
-
-.btn-primary:hover {
-    color: #fff;
-    background-color: #008dad;
-    border-color: #00819e;
+    color: #00abd1;;
+    background-color: transparent;
+    border: none !important;
 }
 
 .btn-primary:focus, .btn-primary.focus {
