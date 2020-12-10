@@ -1,0 +1,74 @@
+/*------------------------------------
+- COLOR primary
+------------------------------------*/
+.bg-primary {
+    background-color: #00abd1 !important;
+}
+
+.border-primary {
+    border-color: #00abd1 !important;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #00abd1;
+    border-color: #00abd1;
+}
+
+.btn-primary:hover {
+    color: #fff;
+    background-color: #008dad;
+    border-color: #00819e;
+}
+
+.btn-primary:focus, .btn-primary.focus {
+    box-shadow: 0 0 0 0.2rem rgba(0, 171, 209, 0.5);
+}
+
+.btn-primary.disabled, .btn-primary:disabled {
+    color: #fff;
+    background-color: #00abd1;
+    border-color: #00abd1;
+}
+
+.btn-outline-primary {
+    color: #00abd1;
+    background-color: transparent;
+    border-color: #00abd1;
+}
+
+.btn-outline-primary:hover {
+    color: #fff;
+    background-color: #00abd1;
+    border-color: #00abd1;
+}
+
+.btn-outline-primary:focus, .btn-outline-primary.focus {
+    box-shadow: 0 0 0 0.2rem rgba(0, 171, 209, 0.5);
+}
+
+.text-primary {
+    color: #00abd1 !important;
+}
+/*------------------------------------*/
+
+
+.view {
+    border: 2px solid black;
+}
+
+/* most views - primarily header divs */
+.shadow {
+    border-radius: 25px;
+    box-shadow: 3px 3px 3px #3d3c3c;
+    margin: 10px auto;
+    padding: 10px;
+}
+
+.rotateimg {
+    -webkit-transform:rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
