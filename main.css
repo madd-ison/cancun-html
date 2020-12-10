@@ -222,6 +222,9 @@ hr {
     .shrink {
         font-size: small;
     }
+    .shrink-x {
+        font-size: x-small;
+    }
     .nav-item {
         padding: 0px !important;
         margin: 0px !important;
@@ -239,6 +242,18 @@ hr {
     }
     .shadow {
         margin-top: 0px !important;
+    }
+    .rm-pt {
+        padding-top: 0px !important;
+    }
+    .rm-mt {
+        margin-top: 0px !important;
+    }
+    .rm-mb {
+        margin-bottom: 0px !important;
+    }
+    .rm-pl {
+        padding-left: 5px !important;
     }
 }
 
