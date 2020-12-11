@@ -78,14 +78,17 @@ h5 {
     border: none !important;
     height: 30px;
 }
-
-.img-fluid {
+/* .img-fluid {
     min-height: 80px;
     min-width: 90px;
-}
+} */
 .img-sm {
     max-height: 80px;
     max-width: 80px;
+}
+
+.rounded {
+    border-radius: 10px !important;
 }
 
 .action {
@@ -204,21 +207,13 @@ hr {
     color: #fff;
 }
 
-.groups-img {
-    max-height: 140px;
+.legend {
+    height: 75px;
+    width: 75px;
 }
 
-.green {
-    color: #00FF31;
-    opacity: 50%;
-}
-.yellow {
-    color: #FFF500;
-    opacity: 50%;
-}
-.red {
-    color: #FF1400;
-    opacity: 50%;
+.groups-img {
+    max-height: 140px;
 }
 
 /* 'eligible deals' img with text overlay */
@@ -311,6 +306,10 @@ hr {
 @media screen and (min-width: 768px) {
     p {
         font-size: 2vh !important;
+    }
+    .legend {
+        height: 100px;
+        width: 100px;
     }
 }
 
