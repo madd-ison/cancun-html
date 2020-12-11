@@ -16,6 +16,13 @@ body, .container-fluid {
     overflow: auto;
 }
 
+.bg-basic {
+    background-color: #fafafa;
+}
+.bg-map {
+    background-image: url(assets/map.png);
+}
+
 .btn {
     border-radius: 20px !important;
 }
@@ -140,9 +147,6 @@ hr {
     border: 2px solid black;
 }
 
-.navbar {
-    background-color: #fff;
-}
 
 /* most views - primarily header divs */
 .shadow {
