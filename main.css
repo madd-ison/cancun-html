@@ -58,6 +58,10 @@ h5 {
 .h6 {
     font-size: calc(.8rem + 1vw)
 }
+
+.text-green {
+    color: #89dc00;
+}
 .fxs {
     font-size: x-small;
 }
