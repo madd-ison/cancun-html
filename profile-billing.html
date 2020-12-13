@@ -10,10 +10,10 @@
     <title>Cancun</title>
   </head>
   <body>
-      <div class='card mx-auto'>
+    <div class='card mx-2 mx-md-auto px-0'>
+      <div class='card-body px-1 shadow d-md-flex pt-3 pb-4 mt-3'>
+        <div class='col-md-6 px-0 px-md-3'>
 
-        <div class='card-body shadow col-sm d-md-flex mx-auto px-1 pt-3 pb-4 mt-3'>
-          <div class='col-md px-0 px-md-3 d-flex flex-column pr-md-5'>
           <div class='row'>
             <div class='col-4 ml-3 pl-1'>
               <img src='assets/profile-photo.jpg' alt='profile photo' class='img-fluid rounded-circle' />
@@ -49,35 +49,35 @@
             </p>
           </div>
 
-        <h5 class='text-primary pl-2 mt-5 rm-mt shrink'>Your Saved Cards</h5>
-        <div class='col-sm d-flex info-box flex-row align-items-md-center justify-content-between shadow mb-3 pt-0 pb-1'>
-          <div class='col-3 text-center pl-1 mt-2'>
-            <h4 class='text-primary'>card</h4>
+          <h5 class='text-primary pl-2 mt-5 rm-mt shrink'>Your Saved Cards</h5>
+          <div class='col-sm d-flex shadow flex-row align-items-md-center justify-content-between mb-3 pt-0 pb-1 rounded-25 info-box'>
+            <div class='col-3 text-center pl-1 mt-2'>
+              <h4 class='text-primary'>card</h4>
+            </div>
+            <div class='ml-4 d-flex flex-column'>
+              <p class='mb-0 mt-1 shrink'>
+                Visa Master Card
+                <a href='#'>
+                  <img src='assets/edit.svg' alt='edit' class='ml-4 pl-4'/>
+                </a>
+              </p>
+              <p class='small text-muted mb-0'>xxxx-xxxx-xxxx-0000</p>
+            </div>
           </div>
-          <div class='ml-4 d-flex flex-column'>
-            <p class='mb-0 mt-1 shrink'>
-              Visa Master Card
-              <a href='#'>
-                <img src='assets/edit.svg' alt='edit' class='ml-4 pl-4'/>
-              </a>
-            </p>
-            <p class='small text-muted mb-0'>xxxx-xxxx-xxxx-0000</p>
-          </div>
-        </div>
 
-        <div class='row'>
+        <div class='row pr-2'>
           <div class='col-3 offset-9'>
           <button class='btn btn-green small py-md-2 px-md-4'>Add</button>
           </div>
         </div>
-        <hr class='hide-md'/>
+        <hr class='d-md-none'/>
         </div>
 
 
-        <div class='col-md px-1 d-flex flex-column justify-content-around'>
+        <div class='col-md-6 px-1 d-flex flex-column justify-content-around'>
           <div class='col-md info-box d-none d-md-flex'></div>
           <h5 class='text-primary pl-2 shrink'>Your Current Plan</h5>
-          <div class='shadow info-box col-md px-0 mb-3'>
+          <div class='shadow info-box col-md px-0 mb-4'>
               <div class='mb-2'>
                 <a href='#'>
                   <img src='assets/edit.svg' alt='edit' class='float-right'/>
@@ -101,7 +101,7 @@
         <hr />
 
         <div class='d-flex px-0 flex-column mb-4'>
-          <h5 class='text-primary pl-2 mb-2 shrink'>Eligible Deals</h5>
+          <h5 class='text-primary pl-2 mb-3 shrink'>Eligible Deals</h5>
           <div class='col-md px-0 deal'>
               <!--TO DO add img -->
             <!-- <img src='assets/deal.jpg' alt='deals' class='mx-auto img-fluid rounded'/> -->
@@ -122,7 +122,7 @@
       </div>
     </div>
 
-    <nav class="navbar px-0 mt-2 mt-md-4 mx-auto d-flex flex-row justify-content-around">
+    <nav class="navbar fixed-bottom px-0 mt-2 mt-md-4 mx-auto d-flex flex-row justify-content-around">
       <a class="navbar-link col-3 text-center px-0" href="#">
         <img src='assets/cactus.svg' alt='placeholder' class='img-fluid'/>
       </a>
