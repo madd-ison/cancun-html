@@ -72,9 +72,7 @@ h5 {
 /* remove bootstrap detail */
 .card {
     border: none !important;
-    height: -moz-calc(100% - 1rem); /* Firefox */
-    height: -webkit-calc(100% - 3rem); /* Chrome, Safari */
-    height: calc(100% - 1rem); /* IE9+ and future browsers */
+    min-height: 87vh !important;
 }
 
 .img-thumbnail {
