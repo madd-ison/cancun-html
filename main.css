@@ -44,6 +44,19 @@ body, .container-fluid {
     border-color: #3d3c3c;
 }
 
+#create-account ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #fff;
+    opacity: 1; /* Firefox */
+  }
+  
+  :-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: #fff;
+  }
+  
+  ::-ms-input-placeholder { /* Microsoft Edge */
+    color: #fff;
+  }
+
 /* TO DO - better way to make responsive on larger screens ? */
 /* p sizing for lg screens in 1024 media query */
 p {
