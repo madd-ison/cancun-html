@@ -72,7 +72,9 @@ h5 {
 /* remove bootstrap detail */
 .card {
     border: none !important;
-    height: 100% !important;
+    height: -moz-calc(100% - 1rem); /* Firefox */
+    height: -webkit-calc(100% - 3rem); /* Chrome, Safari */
+    height: calc(100% - 1rem); /* IE9+ and future browsers */
 }
 
 .img-thumbnail {
@@ -98,6 +100,10 @@ h5 {
 
 hr {
     border-top: 1px solid #89dc00;
+}
+
+.navbar {
+    background-color: hsl(0, 0%, 100%, .8) !important;
 }
 
 /*------------------------------------
