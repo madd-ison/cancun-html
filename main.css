@@ -166,8 +166,8 @@ hr {
 .shadow {
     border-radius: 25px;
     box-shadow: 3px 3px 3px #3d3c3c;
-    margin: 10px auto;
-    padding: 10px;
+    /* margin: 10px auto; */
+    /* padding: 10px; */
 }
 
 .lh-tight {
