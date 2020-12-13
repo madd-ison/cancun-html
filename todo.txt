@@ -1,0 +1,6 @@
+- reformat footer, obv
+    --> fixed-bottom or no ?
+
+- run thru, rmv external classes that can be bootstrapped
+
+- onboarding
