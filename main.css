@@ -293,15 +293,15 @@ hr {
     }
 }
 
-@media screen and (min-height: 1024px) and (max-width: 1024px) {
+/* @media screen and (min-height: 1024px) and (max-width: 1024px) {
     .d-md-flex {
         flex-direction: column !important;
     }
     .col-md-6, .col-md-5 {
-        /* margin: 10px auto !important; */
+        margin: 10px auto !important;
         width: 100% !important;
     }
-}
+} */
 
 @media screen and (min-width: 768px) {
     p {
