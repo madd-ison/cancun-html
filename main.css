@@ -16,6 +16,9 @@ body, .container-fluid {
     overflow: auto;
 }
 
+.bg {
+    background-image: url(assets/beach.jpg);
+}
 .bg-basic {
     background-color: #fafafa;
 }
@@ -196,6 +199,7 @@ hr {
 /* rounded input (welcome page - newsletter sign up) */
 .input-r {
     border-radius: 25px !important;
+    background-color: transparent;
 }
 /*-------------------------------------------------*/
 
