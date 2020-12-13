@@ -49,12 +49,25 @@ body, .container-fluid {
     opacity: 1; /* Firefox */
   }
   
-  :-ms-input-placeholder { /* Internet Explorer 10-11 */
+ #create-account :-ms-input-placeholder { /* Internet Explorer 10-11 */
     color: #fff;
   }
   
-  ::-ms-input-placeholder { /* Microsoft Edge */
+ #create-account ::-ms-input-placeholder { /* Microsoft Edge */
     color: #fff;
+}
+
+.edit ::placeholder {
+    color: #89dc00;
+    opacity: 1;
+  }
+  
+.edit :-ms-input-placeholder {
+    color: #89dc00;
+  }
+  
+.edit ::-ms-input-placeholder {
+    color: #89dc00;
   }
 
 /* TO DO - better way to make responsive on larger screens ? */
