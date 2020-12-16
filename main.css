@@ -121,6 +121,9 @@ h5 {
 .rounded {
     border-radius: 10px !important;
 }
+.rounded-25 {
+    border-radius: 25px;
+}
 
 .action {
     cursor: pointer;
@@ -132,6 +135,9 @@ hr {
 
 .navbar {
     background-color: hsl(0, 0%, 100%, .8) !important;
+}
+.shadow {
+    box-shadow: 2px 2px 2px 2px #e7e6e6;
 }
 
 /*------------------------------------
@@ -187,15 +193,6 @@ hr {
 /* to be removed - used for viewing col size/placement */
 .view {
     border: 2px solid black;
-}
-
-
-/* most views - primarily header divs */
-.shadow {
-    border-radius: 25px;
-    box-shadow: 3px 3px 3px #3d3c3c;
-    /* margin: 10px auto; */
-    /* padding: 10px; */
 }
 
 .lh-tight {
@@ -323,10 +320,10 @@ hr {
 }
 
 @media screen and (min-width: 568px) {
-    .card, .container-fit {
-        width: 90vw !important;
-        height: 90vh !important;
-    }
+    .card {
+        min-height: 100% !important;
+        overflow: auto !important;
+    } 
 }
 
 @media screen and (min-height: 1024px) and (max-width: 1024px) {
