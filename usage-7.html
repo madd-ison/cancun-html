@@ -10,93 +10,94 @@
     <title>Cancun</title>
   </head>
   <body>
-      <div class='card mx-auto'>
-
-        <div class='card-body shadow col-md d-flex flex-column flex-md-row pt-3 pb-4 mt-3'>
-          <div class='col-md-7 px-0 px-md-3 d-flex flex-column'>
+    <div class='card shadow'>
+      <div class='card-body'>
           <div class='row'>
-            <div class='col-4 ml-3 pl-1'>
-              <img src='assets/profile-photo.jpg' alt='profile photo' class='img-fluid rounded-circle' />
-            </div>
-            <div class='col-7 ml-0 pr-0 d-flex flex-column lh-tight'>
-              <div class='d-flex flex-row'>
-                <img src='assets/avatar.svg' alt='avatar icon' class='mr-2' />
-                <p class='mt-3'>
-                  Name of User
-                </p>
-              </div>
-              <div class='d-flex flex-row'>
-                    <img src='assets/email.svg' alt='email icon' class='mr-2' />
-                    <p class='mt-3'>
-                    jsmith@gmail.com
-                    </p>
-              </div>
-                <div class='d-flex flex-row'>
-                    <img src='assets/wifi.svg' alt='email icon' class='mr-2' />
-                    <p class='mt-3'>
-                      Network name
-                    </p>
-                    <p class='mt-3 ml-2 text-danger'>Admin</p>
-              </div>
-            </div>
-          </div>
-
-          <div class='row pl-3 mb-2'>
-            <p>
-              <a href='#'>
-                  <img src='assets/arrow.svg' alt='back to connect' class='img-thumbnail'/> Usage
-              </a>
-            </p>
-          </div>
-          </div>
+              <div class='col-md-6 px-0'>
+                <!--TO DO make tighter-->
+                <div class='d-flex flex-row px-0'>
+                  <div class='col-5 px-1'>
+                      <img src='assets/profile-photo.jpg' alt='profile photo' class='img-fluid rounded-circle' />
+                  </div>
+                  <div class='col-7'>
+                    <div class='d-flex flex-row'>
+                      <img src='assets/avatar.svg' alt='avatar icon' class='mr-2' />
+                      <p class='mt-3'>
+                        Name of User
+                      </p>
+                    </div>
+                    <div class='d-flex flex-row'>
+                          <img src='assets/email.svg' alt='email icon' class='mr-2' />
+                          <p class='mt-3'>
+                          jsmith@gmail.com
+                          </p>
+                    </div>
+                      <div class='d-flex flex-row'>
+                          <img src='assets/wifi.svg' alt='email icon' class='mr-2' />
+                          <p class='mt-3'>
+                            Network name
+                          </p>
+                          <p class='mt-3 ml-2 text-danger'>Admin</p>
+                    </div>
+                  </div>
+                </div> 
+                  <div class='row pl-3 mb-5 rm-mb text-primary'>
+                      <p>
+                        <a href='#'>
+                            <img src='assets/arrow.svg' alt='back to bio' class='img-thumbnail border-0'/> Bio
+                        </a>
+                      </p>
+                  </div>
+                </div> <!--left col md -->
 
           <!--TO DO style, font size, accessibility -->
-        <div class='col d-flex flex-column my-3 px-0 pb-5 pb-md-0 justify-content-around'>
-            <div class='col d-flex flex-row justify-content-between'>
-                <div class='col px-0 d-flex flex-column'>
-                    <p class='text-green shrink-x mb-0'>Usage Type</p>
-                    <p class='fxs mt-0'>20gb Remaining</p>
-                </div>
-                <div class="progress w-75 mb-4">
-                    <div class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
-                </div>
+        <div class='col-md-6 pr-md-5'>
+          <div class='py-md-5 d-none d-md-flex'></div>
+          <div class='col d-flex flex-row justify-content-between'>
+            <div class='col px-0 d-flex flex-column'>
+                <p class='text-green shrink-x mb-0'>Usage Type</p>
+                <p class='fxs mt-0'>20gb Remaining</p>
             </div>
-            <div class='col d-flex flex-row justify-content-between'>
-                <div class='col px-0 d-flex flex-column'>
-                    <p class='text-green mb-0'>Minutes</p>
-                    <p class='fxs mt-0'>4 weeks and 2 days</p>
-                </div>
-                <div class="progress w-75 mb-4">
-                    <div class="progress-bar" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
-                </div>
+            <div class="progress w-75 mb-4">
+                <div class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
             </div>
-            <div class='col d-flex flex-row justify-content-between'>
-                <div class='col px-0 d-flex flex-column'>
-                    <p class='text-green mb-0'>Expiration</p>
-                    <p class='fxs mt-0'>Never</p>
-                </div>
-                <div class="progress w-75 mb-4">
-                    <div class="progress-bar" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
-                </div>
+          </div>
+          <div class='col d-flex flex-row justify-content-between'>
+            <div class='col px-0 d-flex flex-column'>
+              <p class='text-green mb-0'>Minutes</p>
+              <p class='fxs mt-0'>4 weeks and 2 days</p>
             </div>
-            <div class='col d-flex flex-row justify-content-between'>
-                <div class='col px-0 d-flex flex-column'>
-                    <p class='text-green mb-0'>Download</p>
-                    <p class='fxs mt-0'>75gb/100gb</p>
-                </div>
-                <div class="progress w-75 mb-4">
-                    <div class="progress-bar" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
-                </div>
+            <div class="progress w-75 mb-4">
+              <div class="progress-bar" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
             </div>
-            <div class='col d-flex flex-row justify-content-between'>
-                <div class='col px-0 d-flex flex-column'>
-                    <p class='text-green mb-0'>Upload</p>
-                    <p class='fxs mt-0'>5gb/5gb</p>
-                </div>
-                <div class="progress w-75 mb-4">
-                    <div class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
-                </div>
+          </div>
+          <div class='col d-flex flex-row justify-content-between'>
+            <div class='col px-0 d-flex flex-column'>
+              <p class='text-green mb-0'>Expiration</p>
+              <p class='fxs mt-0'>Never</p>
             </div>
+            <div class="progress w-75 mb-4">
+              <div class="progress-bar" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+          </div>
+          <div class='col d-flex flex-row justify-content-between'>
+            <div class='col px-0 d-flex flex-column'>
+              <p class='text-green mb-0'>Download</p>
+              <p class='fxs mt-0'>75gb/100gb</p>
+            </div>
+            <div class="progress w-75 mb-4">
+              <div class="progress-bar" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+          </div>
+          <div class='col d-flex flex-row justify-content-between'>
+            <div class='col px-0 d-flex flex-column'>
+              <p class='text-green mb-0'>Upload</p>
+              <p class='fxs mt-0'>5gb/5gb</p>
+            </div>
+              <div class="progress w-75 mb-4">
+                <div class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+          </div>
         </div>
 
     </div>
