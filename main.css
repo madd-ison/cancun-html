@@ -17,7 +17,7 @@ body, .container-fluid {
 }
 
 .bg {
-    background-image: url(assets/beach.jpg);
+    background-image: url(assets/beach.jpeg);
 }
 .bg-basic {
     background-color: #fafafa;
@@ -44,16 +44,16 @@ body, .container-fluid {
     border-color: #3d3c3c;
 }
 
-#create-account ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+.onboard ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
     color: #fff;
     opacity: 1; /* Firefox */
   }
   
- #create-account :-ms-input-placeholder { /* Internet Explorer 10-11 */
+.onboard :-ms-input-placeholder { /* Internet Explorer 10-11 */
     color: #fff;
   }
   
- #create-account ::-ms-input-placeholder { /* Microsoft Edge */
+.onboard ::-ms-input-placeholder { /* Microsoft Edge */
     color: #fff;
 }
 
